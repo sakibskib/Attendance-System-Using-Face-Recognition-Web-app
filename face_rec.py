@@ -1,9 +1,7 @@
 import numpy as np
-import pandas as pd 
-import cv2 
-
+import pandas as pd
+import cv2
 import redis
-
 # insightface 
 from insightface.app import FaceAnalysis
 from sklearn.metrics import pairwise 
